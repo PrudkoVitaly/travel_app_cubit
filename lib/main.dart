@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_cubit/pages/navpages/main_page.dart';
 
-import 'screens/welcome_screen.dart';
+import 'pages/detail_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WelcomeScreen(),
+      home: const DetailPage(),
     );
   }
 }
